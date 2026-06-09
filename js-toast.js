@@ -1,0 +1,1 @@
+const tDiv=document.createElement('div');tDiv.id='toast-container';document.body.appendChild(tDiv);function showAlert(msg){if(tDiv.children.length>=CONFIG.maxToasts){tDiv.children[0].remove()}const t=document.createElement('div');t.className='toast';t.innerHTML=`${svgs.alert} <span>${msg}</span>`;tDiv.appendChild(t);setTimeout(()=>t.remove(),CONFIG.toastDuration)}
