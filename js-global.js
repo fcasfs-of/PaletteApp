@@ -1,0 +1,1 @@
+const CONFIG={maxToasts:2,toastDuration:3000,itemsPerPage:6,defaultColor:'#4f46e5',magicPaletteCount:5,magicPaletteSaturation:75,magicPaletteLightness:55,maxColorsPerPalette:40,appTitle:{pt:'Gerador Cores',en:'Palette App'},storageKey:'saved_palettes'};
